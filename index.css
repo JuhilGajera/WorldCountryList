@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maincontainer {
+  width: 100vw;
+  height: 100vh;
+}
+.uppermaincontainer {
+  width: 100%;
+  height: 40%;
+  background-image: url("World.jpg");
+}
+.uppermaincontainerdiv1,
+.uppermaincontainerdiv2,
+.uppermaincontainerdiv3,
+.uppermaincontainerdiv4,
+.uppermaincontainerdiv5 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 10rem;
+  width: 30%;
+  height: 50%;
+  padding-left: 1rem;
+  margin-right: 0.5rem;
+}
+.fa {
+  color: white;
+}
+.buttonclass {
+  background-color: #885ae5;
+  width: 10%;
+  height: 70%;
+  margin-right: 0.5rem;
+  border: none;
+  color: white;
+}
+.buttonclass0 {
+  background-color: #885ae5;
+  width: 15%;
+  height: 70%;
+  margin-right: 0.5rem;
+  border: none;
+  color: white;
+}
+.buttonclass1 {
+  background-color: #885ae5;
+  width: 2%;
+  height: 70%;
+  margin-right: 0.5rem;
+  border: none;
+  color: white;
+}
+.lowermaincontainer {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+h1,
+p {
+  color: white;
+}
+.card {
+  width: 20%;
+  height: 30%;
+  box-shadow: 5px 5px 10px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("image.jpg");
+  background-size: 100% 100%;
+}
+h2,
+h3 {
+  color: black;
+}
+.card1 {
+  width: 25%;
+  height: 30%;
+  box-shadow: 5px 5px 10px;
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("image.jpg");
+  background-size: 100% 100%;
+}

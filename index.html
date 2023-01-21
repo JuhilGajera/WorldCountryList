@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World country List</title>
+    <link rel="stylesheet" href="index.css" />
+    
+    <script defer src="country.js"></script>
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="maincontainer">
+      <div class="uppermaincontainer">
+        <div class="uppermaincontainerdiv1">
+          <h1>WORLD COUNTRIES LIST</h1>
+        </div>
+        <div class="uppermaincontainerdiv2" id="uppermaincontainerdiv2">
+          <h2 id="Country"></h2>
+        </div>
+        <div class="uppermaincontainerdiv3" id="uppermaincontainerdiv3">
+          <h2 id="countriescontaining"></h2>
+        </div>
+        <div class="uppermaincontainerdiv4">
+          <button class="buttonclass" id="colorchange" onclick="startingword()">
+            STARTING WORD
+          </button>
+          <button class="buttonclass0" id="colorchange1" onclick="anyword()">
+            SEARCH WITH ANY WORD
+          </button>
+          <button class="buttonclass1" onclick="changebutton()">||</button>
+        </div>
+        <div class="uppermaincontainerdiv5">
+          <input class="input" type="search" name="input" id="input" />
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="lowermaincontainer" id="lowermaincontainer"></div>
+    </div>
+  </body>
+</html>
